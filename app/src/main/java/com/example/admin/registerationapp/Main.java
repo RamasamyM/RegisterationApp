@@ -80,9 +80,13 @@ public class Main extends ActionBarActivity {
 
     public void accessAppTracking()
     {
+        // mobile App tracker id
         mobileAppTracker = MobileAppTracker.init(getApplicationContext(),
-                "your_advertiser_ID",
-                "your_conversion_key");
+                "advertiser_ID",
+                "our_conversion_key");
+
+        //used id getting
+
         mobileAppTracker.setAndroidId(Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID));
         String deviceId = ((TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE)).getDeviceId();
         mobileAppTracker.setDeviceId(deviceId);
