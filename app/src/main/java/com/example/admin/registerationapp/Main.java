@@ -39,6 +39,7 @@ public class Main extends ActionBarActivity {
         userPassword = (EditText) findViewById(R.id.userPassword);
         keepMe = (CheckBox) findViewById(R.id.keepMeSigned);
 
+
         sharedPref = getSharedPreferences("logindetails", MODE_PRIVATE);
 
         if(sharedPref.contains("username") && sharedPref.contains("password")){
@@ -82,7 +83,7 @@ public class Main extends ActionBarActivity {
     {
         // mobile App tracker id
         mobileAppTracker = MobileAppTracker.init(getApplicationContext(),
-                "advertiser_ID",
+                "our_advertiser_ID",
                 "our_conversion_key");
 
         //used id getting
