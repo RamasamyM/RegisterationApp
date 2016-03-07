@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RegisterationApp.iml" filepath="$PROJECT_DIR$/RegisterationApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TuneMarketingConsoleSDK-4.0.1/TuneMarketingConsoleSDK-4.0.1.iml" filepath="$PROJECT_DIR$/TuneMarketingConsoleSDK-4.0.1/TuneMarketingConsoleSDK-4.0.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TuneMarketingConsoleSDK-javadoc-4.0.1/TuneMarketingConsoleSDK-javadoc-4.0.1.iml" filepath="$PROJECT_DIR$/TuneMarketingConsoleSDK-javadoc-4.0.1/TuneMarketingConsoleSDK-javadoc-4.0.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
