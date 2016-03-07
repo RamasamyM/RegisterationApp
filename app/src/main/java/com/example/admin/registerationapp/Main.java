@@ -28,6 +28,7 @@ public class Main extends ActionBarActivity {
     SharedPreferences sharedPref;
     MobileAppTracker mobileAppTracker = null;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -83,8 +84,8 @@ public class Main extends ActionBarActivity {
     {
         // mobile App tracker id
         mobileAppTracker = MobileAppTracker.init(getApplicationContext(),
-                "our_advertiser_ID",
-                "our_conversion_key");
+                "191461",
+                "98617bda9a049eab5fdedb85335dd2dd");
 
         //used id getting
 
